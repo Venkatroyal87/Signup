@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        
+        input[type]
+        {
+            color: rgb(64, 36, 201);
+              border: 1px solid black;
+              margin-bottom: 10px;
+              border-color:rgb(207, 145, 10);
+              border-width: 3px;
+              border-radius: 5px;
+        }
+        .gender
+        {
+            color: rgb(64, 36, 201);
+              border: 1px solid black;
+              margin-bottom: 1px;
+              border-color:rgb(207, 145, 10);
+              border-width: 3px;
+              border-radius: 5px;
+              left: 100px;
+        }
+        .notif
+        {
+            color: rgb(64, 36, 201);
+              border: 1px solid black;
+              margin-top: 10px;
+              border-color:rgb(207, 145, 10);
+              border-width: 3px;
+              border-radius: 5px;
+              position:relative
+              
+        }
+        
+        fieldset{
+            border-width:10px;
+            border-radius: 5px;
+            position:relative
+             
+        }
+        .hi{
+            background-color:cadetblue;
+            position:relative
+            
+        }
+        /* fieldset{
+            left: 100px;
+        }  */
+        .hi{
+            left: 100px;
+        }
+      
+      
+        
+    </style>
+</head>
+<body class="hi">
+    <form action="welcome.html">
+    <h1 style="font-family:Georgia, 'Times New Roman', Times, serif ;  "><u><b>Sign up page</b></u></h1>
+    <fieldset style="width: 230px;">
+    <legend  style="font-size: x-large; color:chocolate;"><u><b>Signup</b></u></legend>
+    
+    <input  type="text" placeholder="Enter the First Name" minlength="5" required  ><br>
+    <input type="text" placeholder="Enter the Second Name" required><br>
+    <input type="email" placeholder="Enter the E-Mail" required><br>
+    <input type="number" placeholder="Enter the Mobile Number" step="0"><br> 
+    <input  type="date" placeholder="enter the dob" required><br>
+   <fieldset>
+    <legend class="gender"> Gender</legend>
+    <select name="gender" id="gender" placeholder="enter the gender">
+    <option style="display:inline-block;"> select</option>
+    <option value="male">male</option>
+    <option value="female">female</option>
+    <option value="others">others</option>
+</select><br>
+    </fieldset>
+   <!-- <input type="radio" id="Male" name="gender"> 
+<label for ="male">Male</label>
+<input type="radio" id="Female" name="gender">
+<label for ="male">Female</label>
+<input type="radio" id="others" name="gender"> <label for ="others">others</label><br> -->
+<fieldset>
+    <legend class="notif">Notification</legend>
+    <select name="Notification " id="Notification" placeholder="choose the notification">
+        <option>select</option>
+    <option value="SMS">SMS</option>
+    <option value="MAIL">SMS</option>
+    <option value="CALL">SMS</option>
+    <label  for="smsnot">Callnotification</label><br>
+</form>
+</select>
+</fieldset>
+    
+
+</fieldset>
+<pre>
+    <input type="submit" value="Create Account">  <input type="Reset">
+    </pre> 
+
+</body>
+</html>
+
+
+
+<!-- Transform =conversation (changing the position)
+Transition= small conversation(changing the position) when an action takes place -->
